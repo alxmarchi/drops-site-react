@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Production from "./pages/Production";
 import Offers from "./pages/Offers";
 import Contacts from "./pages/Contacts";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             
 
           </Switch>
+          <Footer>
+
+          </Footer>
           </BrowserRouter>
     </>
   );
