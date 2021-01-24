@@ -9,11 +9,13 @@ import Production from "./pages/Production";
 import Offers from "./pages/Offers";
 import Contacts from "./pages/Contacts";
 import Footer from "./components/Footer"
+import { YMaps } from 'react-yandex-maps';
 
 function App() {
   return (
     <>
     <BrowserRouter>
+    <YMaps>
       <Header>
         
         </Header>
@@ -22,14 +24,15 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/production" component={Production} />
-            <Route path="/production" component={Offers} />
-            <Route path="/offers" component={Contacts} />
+            <Route path="/offers" component={Offers} />
+            <Route path="/contacts" component={Contacts} />
             
 
           </Switch>
           <Footer>
 
           </Footer>
+          </YMaps>
           </BrowserRouter>
     </>
   );
