@@ -22,9 +22,9 @@ const Production =() =>{
   </Card.Body>
 </Card>
 <Card style={{ width: '10rem', border: 0 }}>
-  <Card.Img variant="top" src={orange_card} />
+  <Card.Img variant="top" src={mint_card} />
   <Card.Body>
-  <Card.Title>АПЕЛЬСИН</Card.Title>
+  <Card.Title>МЯТА</Card.Title>
     <Button variant="primary">Подробнее</Button>
   </Card.Body>
 </Card>
@@ -36,9 +36,9 @@ const Production =() =>{
   </Card.Body>
 </Card>
 <Card style={{ width: '10rem', border: 0 }}>
-  <Card.Img variant="top" src={orange_card} />
+  <Card.Img variant="top" src={mint_card} />
   <Card.Body>
-  <Card.Title>АПЕЛЬСИН</Card.Title>
+  <Card.Title>МЯТА</Card.Title>
     <Button variant="primary">Подробнее</Button>
   </Card.Body>
 </Card>

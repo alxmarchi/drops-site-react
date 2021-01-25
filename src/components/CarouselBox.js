@@ -1,8 +1,9 @@
 import React from 'react';
 import Carousel from "react-bootstrap/Carousel"
-import orange from "../assets/images/orange.jpg"
-import yellow from "../assets/images/yellow.jpg"
-import red from "../assets/images/red.jpg"
+import orange from "../assets/images/banner-orange.jpg"
+import yellow from "../assets/images/banner-limon.jpg"
+import green from "../assets/images/banner-mint.jpg"
+import red from "../assets/images/banner-strawberry.jpg"
 
 export default function CarouselBox() {
     return (
@@ -34,6 +35,17 @@ export default function CarouselBox() {
                 className="d-block w-100"
                 src={red}
                 alt="Нетангин фито со вкусом клубники"
+                />
+                <Carousel.Caption>
+                    <h2>НЕТАНГИН ФИТО*</h2>
+                    <p>Пастилки для горла</p>
+                </Carousel.Caption>
+            </Carousel.Item> 
+            <Carousel.Item>
+                <img
+                className="d-block w-100"
+                src={green}
+                alt="Нетангин фито со вкусом мяты"
                 />
                 <Carousel.Caption>
                     <h2>НЕТАНГИН ФИТО*</h2>
