@@ -10,6 +10,7 @@ import Offers from "./pages/Offers";
 import Contacts from "./pages/Contacts";
 import Footer from "./components/Footer"
 import { YMaps } from 'react-yandex-maps';
+import Product from "./pages/Product";
 
 function App() {
   return (
