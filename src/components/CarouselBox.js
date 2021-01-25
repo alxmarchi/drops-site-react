@@ -4,7 +4,7 @@ import orange from "../assets/images/banner-orange.jpg"
 import yellow from "../assets/images/banner-limon.jpg"
 import green from "../assets/images/banner-mint.jpg"
 import red from "../assets/images/banner-strawberry.jpg"
-
+import './CarouselBox.css'
 export default function CarouselBox() {
     return (
         <Carousel>
@@ -14,10 +14,10 @@ export default function CarouselBox() {
                 src={orange}
                 alt="Нетангин фито со вкусом апельсина"
                 />
-                <Carousel.Caption>
+               <div className="carousel-caption text-right">
                     <h2>НЕТАНГИН ФИТО*</h2>
                     <p>Пастилки для горла</p>
-                </Carousel.Caption>
+                </div>
             </Carousel.Item> 
             <Carousel.Item>
                 <img
